@@ -1,3 +1,14 @@
+/* bg colors */
+
+:root {
+  --brown: #a35d45;
+  --teal: #a2c5b8;
+  --grey: #97a79f;
+  --green: #435d45;
+  --white: #dee7e5;
+}
+
+/* react styling */ 
 .App {
   text-align: center;
 }
@@ -14,14 +25,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--brown);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--green);
 }
 
 .App-link {
@@ -35,4 +46,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*header component styling */
+
+.header {
+  color: var(--green);
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  font-size: 25px;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("./assets/paper.jpg");
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-color: var(--grey);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .5;
+  z-index: 0;
+}
+
+.header > * {
+  z-index: 10;
+  position: relative;
+}
+
+.search-area {
+  display: inline;
+  padding-top: 50px;
+  position: absolute;
+  padding-left: 500px;
+}
+
+.search {
+  size: 500px;
+  height: 30px;
+  font-size: 25px;
+}
+
+.btn {
+  height: 40px;
+  color: var(--green);
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 25px;
+  background-color: var(--white);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--teal);
+}
+
+/* footer component styling */
+
+/* body styling */ 
+
+.body {
+  background-color: var(--brown);
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.sidebar {
+  border: 5px solid black;
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  padding-left: 5px;
+  margin-top: 10px;
+  background-color: var(--teal);
 }
