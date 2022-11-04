@@ -1,7 +1,7 @@
 /* bg colors */
 
 :root {
-  --brown: #a35d45;
+  --navy: #071a36;
   --teal: #a2c5b8;
   --grey: #97a79f;
   --green: #435d45;
@@ -25,7 +25,7 @@
 }
 
 .App-header {
-  background-color: var(--brown);
+  background-color: var(--navy);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -104,15 +104,39 @@
 .btn:hover {
   cursor: pointer;
   background-color: var(--teal);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 /* footer component styling */
 
+.footer {
+  padding: 10px 0px 10px 15px;
+  font-size: 25px;
+  background-color: var(--teal);
+  color: var(--navy);
+  border-top: 3px solid var(--navy);
+}
+
+.contact {
+  text-decoration: none;
+  color: var(--navy);
+  list-style: none;
+}
+
+.contact-link:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* body styling */ 
 
 .body {
-  border-top: 3px solid black;
-  background-image: linear-gradient(to right, var(--grey), var(--brown));
+  border-top: 3px solid var(--navy);
+  background-image: linear-gradient(to right, var(--grey), var(--navy));
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 20px;
