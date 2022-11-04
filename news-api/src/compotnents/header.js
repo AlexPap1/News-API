@@ -43,7 +43,7 @@ function sortResults() {
             console.log(data);
             //displays15 articles
             for(var i = 0; i < 15; i++) {
-                results.innerHTML += "<div style = 'border: 3px solid white; margin: 10px'> <h2 style = 'padding-left: 10px'> "+data.articles[i].title+" </h2> <p style = 'font-size: 20px; padding-left: 10px'> "+data.articles[i].description+" <p> <br> <a target=_blank rel=noopener noreferrer href = "+data.articles[i].url+"> <img style = 'width: 300px; padding-left: 10px' src="+data.articles[i].urlToImage+" </img> </a> </div>";
+                results.innerHTML += "<div style = 'border: 3px solid white; margin: 10px'> <h2 style = 'padding-left: 10px; padding-right: 10px;'> "+data.articles[i].title+" </h2> <p style = 'font-size: 20px; padding-left: 10px; padding-right: 10px;'> "+data.articles[i].description+" <p> <br> <a target=_blank rel=noopener noreferrer href = "+data.articles[i].url+"> <img style = 'width: 300px; padding-left: 10px' src="+data.articles[i].urlToImage+" </img> </a> </div>";
             }
         })
     })
