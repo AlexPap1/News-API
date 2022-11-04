@@ -19,7 +19,10 @@ window.onload = loadPopular;
 
 const Popular = () => {
     return(
-        <div id = "popularContainer">
+        <div>
+            <h2 className = "sidebar-header">Top 15 Stories</h2>
+            <div id = "popularContainer">
+            </div>
         </div>
 
     );

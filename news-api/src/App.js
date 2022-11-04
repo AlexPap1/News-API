@@ -1,8 +1,8 @@
 import './App.css';
-import './utils/API.js';
 import Footer from './compotnents/footer';
 import Popular from './compotnents/popular';
 import Header from './compotnents/header';
+import searchResults from './compotnents/header';
 
 function App() {
   return (

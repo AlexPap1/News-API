@@ -99,15 +99,12 @@
   font-size: 20px;
   margin-left: 25px;
   background-color: var(--white);
+  border-radius: 12%;
 }
 
 .btn:hover {
   cursor: pointer;
   background-color: var(--teal);
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-
 }
 
 /* footer component styling */
@@ -152,4 +149,10 @@
   margin-top: 10px;
   background-color: var(--teal);
   background-image: linear-gradient(to right, var(--grey), var(--green));
+}
+
+.sidebar-header {
+  font-size: 40px;
+  text-align: center;
+  text-shadow: -1px -1px 0 var(--white), 1px -1px 0 var(--grey), -1px 1px 0 var(--grey), 1px 1px 0 var(--grey);
 }
