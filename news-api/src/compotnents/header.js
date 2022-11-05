@@ -81,5 +81,3 @@ function searchResults() {
 
 
 export default Header;
-
-//ADD SORT
