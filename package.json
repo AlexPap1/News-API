@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "moment": "^2.29.4",
-    "newsapi": "^2.4.1",
     "react-moment": "^1.1.2"
   }
 }
