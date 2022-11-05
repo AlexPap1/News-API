@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/News-API/static/css/main.eff22090.css",
+    "main.js": "/News-API/static/js/main.9164f650.js",
+    "static/media/paper.jpg": "/News-API/static/media/paper.db64759493025e2e08d1.jpg",
+    "index.html": "/News-API/index.html",
+    "main.eff22090.css.map": "/News-API/static/css/main.eff22090.css.map",
+    "main.9164f650.js.map": "/News-API/static/js/main.9164f650.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eff22090.css",
+    "static/js/main.9164f650.js"
+  ]
+}
