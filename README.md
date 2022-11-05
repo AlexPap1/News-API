@@ -7,7 +7,7 @@
 <br />
 
 ## Deployed Application
-## 
+## https://alexpap1.github.io/News-API/
 <br />
 
 ## AlexPap1
@@ -19,7 +19,7 @@
 ## 🖊️ Description 🖊️
 <br />
 
-This repo is a serverless React.JS application which uses a news api to display current events. Your News Today allows users to search for news articles in groups of 15, and can view the original articles by clicking the thumbnails. Also displayed are the top 15 news stories in the US in current time. Users are able to sort search results by relevance (default) or by publish dats (starting by new). A useContext react hook is also used to toggle a dark/light theme for a better viewing experience. The repo uses multiple compoenents including the header, footer, and sidebar. The footer contains a contact link to send an email to the developer. 
+This repo is a serverless React.JS application which uses a news api to display current events. Your News Today allows users to search for news articles in groups of 15, and can view the original articles by clicking the thumbnails. Also displayed are the top 15 news stories in the US in current time. Users are able to sort search results by relevance (default) or by publish dats (starting by new). A useContext react hook is also used to toggle a dark/light theme for a better viewing experience. The repo uses multiple compoenents including the header, footer, and sidebar. The footer contains a contact link to send an email to the developer. **API calls on the deployed app are unsuccessful due to requests from the browser not allowed on the Developer plan, except from localhost - error code 426. (Please see the following: https://stackoverflow.com/questions/62123382/issue-with-newsapi-org-api-and-jquery). 
 <br />
 
 ## 📜 Table of Contents 📜
